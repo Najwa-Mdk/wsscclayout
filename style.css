@@ -1,0 +1,453 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 3550px;
+}
+
+/* Menu section */
+.nav-bar .logo .nav-bar-menu {               
+    display: flex;
+}
+
+.logo img {
+width: 268px;
+height: 33px;
+margin-top: 10px;
+margin-left: 250px;
+}
+
+nav {
+background-color: transparent;
+cursor: pointer;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 0.6em;
+    font-weight: 300;
+    color: #747474;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+
+nav ul li ul li {
+width:250px ;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a :hover {
+    background-color: #f3f3f3;          
+}
+.menu {
+    display: flex;
+    margin-left: 950px;
+}
+
+.menu .about {   
+    /* not fun                            */
+    color:#00b39b;
+}
+
+/* Intro section */
+.health-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% 10%;
+}
+
+.health-intro div {
+    display: flex;
+    padding: 3%;
+    line-height: 1.75;
+    justify-content: space-evenly;
+}
+
+.health-intro h1 {
+    font-size: 36px;
+    color: #00b39b;
+    padding: 2%;
+    font-weight: 300;
+}
+
+.health-intro div p {
+    width: 45%;
+    font-weight: 300;
+    color: #747474;
+}
+
+/* Services section */
+.grid {
+    display: grid;
+    grid-gap:30px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content:center;
+    padding-bottom: 100px;                 
+}
+
+.col-3 .item-patients {
+    background-color: #00b39b;
+    height: 330px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: 300;
+    border-radius: 4%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.col-3 .item-doctors {
+    background-color: #3d83df;
+    height: 330px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 4%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.col-3 .item-clinics {
+    background-color: #1b2734;
+    height: 330px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 4%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+/* Brands section */
+.brands h1 {
+    color: #00b39b;
+    font-weight: 300;
+    margin-left: 250px;
+}
+
+.brands-logo .logo-znanylekarz {
+    height: 120px;
+}
+
+.brands-logo .logo-docotoralia {
+    height: 18px;
+}
+
+.brands-logo .logo-miodottore {
+    height: 18px; 
+}
+
+.brands-logo .logo-doctortakvimi {
+    height: 150px;
+}
+
+.brands-logo .logo-tuotempo {
+    height: 120px;
+}
+
+.brands-logo .logo-gipo {
+    height: 40px;
+}
+
+.brands-logo .logo-cliniccloud {
+    height: 70px;
+}
+
+.brands-logo .logo-jameda {
+    height: 30px;
+}
+
+.brands-logo  {                          
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2% 10%;
+    list-style:none;
+}
+.bands-section {
+    display: flex;
+}
+
+/* stats section */
+.grid__stats {
+    background-color: #dff8f6;
+    height: 600px;
+    display: flex;
+    grid-gap:100px;
+    grid-template-rows: 200px 200px 200px 200px;
+    justify-content:center;
+    padding-bottom: 100px;  
+}
+
+.col-2__stats {
+    display: flex;
+    background-color: #dff8f6;
+    flex-wrap: wrap;
+}
+
+.col-2__stats .item-countries {
+    margin-right: 20px ;
+    margin-top : 60px;
+}
+
+.col-2__stats .item-appointments {
+    margin-right: 60px ;
+    margin-top : 25px;
+}
+   
+.col-2__stats .item-patients {
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.col-2__stats .item-doctors {
+    margin-right: 60px ;
+    margin-top : 100px;
+}
+
+.col-header {
+    display: flex;
+}
+
+.section-stats {
+    display: flex;
+    background-color: #dff8f6;
+}
+.col-2__header h1 {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top : 90px;
+    width:100%;
+    color: #00b39b;
+}
+
+.col-2__header p {
+    color: #747474;
+    line-height: 1.7;
+    margin-left: 200px;
+    width:100%;
+}
+
+.col-2__header img {
+    padding-top: 35px;
+    height: 390px;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 45px;
+}
+
+.col-2__stats .item-countries {
+  
+    background-color: #fff;
+    height: 200px;
+    width:200px;
+    color: #747474;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 20px 20px 20px 20px;
+}
+
+.item-countries h1 {
+    color: #00b39b;
+}
+
+.col-2__stats .item-appointments {
+  
+    background-color: #fff;
+    height: 200px;
+    width:200px;
+    color: #747474;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 20px 20px 20px 20px;
+}
+
+.item-appointments h1 {
+    color: #00b39b;
+}
+
+.col-2__stats .item-patients2 {
+    
+    background-color: #fff;
+    height: 200px;
+    width:200px;
+    color: #747474;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 20px 20px 20px 20px;
+}
+
+.item-patients2 h1 {
+    color: #00b39b;
+}
+
+.col-2__stats .item-doctors2 {
+    
+    background-color: #fff;
+    height: 200px;
+    width:200px;
+    color: #747474;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 20px 20px 20px 20px;
+}
+
+.item-doctors2 h1 {
+    color: #00b39b;
+}
+
+
+/* Offices section */
+.offices h1 {
+    text-align: center;
+    color: #00b39b;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.paragraphe p {
+    font-weight: 300; 
+    text-align: center;
+    color:#747474;
+    line-height: 1.7;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* Countries section */
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 10%;
+}
+
+.country {
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+
+.country img {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.country div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+
+.country div p {
+    color: #747474;
+}
+
+.country div button {
+    letter-spacing: .04em;
+    color: white;
+    background-color: #3d83df;
+    padding: 2%;
+    border-radius: 4px;
+    border: 0;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.country:hover {
+    box-shadow: 0 4px 8px 0 gray;
+    cursor: pointer;
+}
+
+/* Join us section */
+.join-us h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    font-weight: 300;
+    
+}
+
+.join-us {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 40px;
+    
+}
+.btn {
+    display: inline-block;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto, sans-serif ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    padding : 10px 15px 10px 15px;
+    text-decoration: none;
+    letter-spacing: .04em;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+/* Footer section */
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    font-size: 12px;
+    color: #ababab;
+    padding-top: 38px;
+}
+
+.terms a {
+text-decoration: none;
+color: #3d83df;
+}
+
+.terms p {
+   padding-bottom: 20px;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
